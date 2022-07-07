@@ -17,6 +17,12 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -30,7 +36,6 @@ body {
 
 .nav-bar__menu {
   display: flex;
-  list-style: none;
   gap: 1.1rem;
   flex: 1;
 }
@@ -49,3 +54,36 @@ body {
 .count-items__icon {
   font-size: 2.4em;
 }
+
+.item-list {
+  background-color: var(--main-color);
+}
+
+.item-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-delete {
+  display: flex;
+  align-items: center;
+}
+
+.item-list__total-price {
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+/* <section class="item-list">
+<ul class="item-list__list">
+  <li class="item-list__item">
+    <label>
+      <input type="checkbox" id="cart-item">
+      Pan
+    </label>
+    <div class="price-delete">
+      <p class="item__price">0.75€</p>
+      <i class="item__delete">X</i>
+    </div>
+  </li> */
