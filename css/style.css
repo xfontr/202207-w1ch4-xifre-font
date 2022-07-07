@@ -106,8 +106,14 @@ input[type="checkbox"]:checked + * {
 }
 
 .item-list__item-name {
+  margin-left: 5px;
   margin-right: auto;
   cursor: pointer;
+}
+
+.item-delete {
+  margin-left: 15px;
+  font-size: 1.7rem;
 }
 
 /* <label>
