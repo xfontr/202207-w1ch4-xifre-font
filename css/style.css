@@ -51,7 +51,7 @@ main {
 
 .header__heading {
   font-weight: 500;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .nav-bar__menu {
@@ -73,6 +73,7 @@ main {
 
 .count-items__icon {
   font-size: 2.4em;
+  color: var(--typography-color);
 }
 
 .item-list {
@@ -123,17 +124,21 @@ input[type="checkbox"]:checked + * {
   line-height: 0;
 }
 
+.field__price-tag input {
+  width: 100%;
+}
+
+.field__price-tag p {
+  position: absolute;
+  right: 55%;
+}
+
 .field__input {
   outline: none;
   border: none;
   padding: 15px;
 }
 
-/* <label>
-<input type="checkbox" id="cart-item">
-Azúcar
-</label>
-<div class="price-delete">
-<p class="item__price"></p>
-<i class="item__delete">X</i>
-</div> */
+.item__price {
+  line-height: 0;
+}
