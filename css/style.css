@@ -1,0 +1,32 @@
+:root {
+  --contrast-color: blue;
+  --main-color: orange;
+  --main-color-dark: rgb(135, 88, 0);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--contrast-color);
+}
+
+.header_heading-container {
+  flex: 1;
+}
+
+.nav-bar__menu {
+  display: flex;
+  list-style: none;
+  gap: 1.1rem;
+  flex: 1;
+}
