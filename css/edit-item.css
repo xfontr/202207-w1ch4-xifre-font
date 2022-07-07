@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 20px;
+}
+
+.form label {
+  margin-bottom: 8px;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__button {
+  width: fit-content;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: rgb(98, 138, 163);
+  color: white;
+  padding: 13px 6px 13px 6px;
+}
+
+/* <form class="form">
+      <div class="form__field">
+        <label for="name-field">Nombre</label><input type="text" id="name-field">
+      </div>
+      <div class="form__field">
+        <label for="price-field">Precio</label><input type="text" id="price-field">
+        <p>€</p>
+      </div>
+      <button>Modificar</button>
+    </form> */

@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/edit-item.css">
   <title>List</title>
 </head>
 
@@ -37,13 +38,16 @@
       <h3>Editar artículo</h3>
       <form class="form">
         <div class="form__field">
-          <label for="name-field">Nombre</label><input type="text" id="name-field">
+          <label for="name-field">Nombre:</label><input class="field__input" type="text" id="name-field">
         </div>
         <div class="form__field">
-          <label for="price-field">Precio</label><input type="text" id="price-field">
-          <p>€</p>
+          <label for="price-field">Precio:</label>
+          <div class="field__price-tag">
+            <input class="field__input" type="text" id="price-field">
+            <p>€</p>
+          </div>
         </div>
-        <button>Modificar</button>
+        <button class="form__button">Modificar</button>
       </form>
     </section>
   </main>
