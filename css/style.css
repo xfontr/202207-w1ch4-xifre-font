@@ -86,6 +86,11 @@ main {
   align-items: center;
 }
 
+.item-list__item:hover {
+  background-color: rgb(168, 89, 0);
+  color: white;
+}
+
 .price-delete {
   display: flex;
   align-items: center;
@@ -96,15 +101,20 @@ main {
   font-size: 1.5rem;
 }
 
-/* <section class="item-list">
-<ul class="item-list__list">
-  <li class="item-list__item">
-    <label>
-      <input type="checkbox" id="cart-item">
-      Pan
-    </label>
-    <div class="price-delete">
-      <p class="item__price">0.75€</p>
-      <i class="item__delete">X</i>
-    </div>
-  </li> */
+input[type="checkbox"]:checked + * {
+  text-decoration: line-through;
+}
+
+.item-list__item-name {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+/* <label>
+<input type="checkbox" id="cart-item">
+Azúcar
+</label>
+<div class="price-delete">
+<p class="item__price"></p>
+<i class="item__delete">X</i>
+</div> */
