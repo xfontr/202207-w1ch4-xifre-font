@@ -116,6 +116,19 @@ input[type="checkbox"]:checked + * {
   font-size: 1.7rem;
 }
 
+.field__price-tag {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  line-height: 0;
+}
+
+.field__input {
+  outline: none;
+  border: none;
+  padding: 15px;
+}
+
 /* <label>
 <input type="checkbox" id="cart-item">
 Azúcar
