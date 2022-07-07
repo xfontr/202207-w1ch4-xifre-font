@@ -1,7 +1,8 @@
 :root {
-  --contrast-color: blue;
-  --main-color: orange;
-  --main-color-dark: rgb(135, 88, 0);
+  --contrast-color: rgb(154, 203, 234);
+  --main-color: rgb(203, 134, 55);
+  --main-color-dark: rgb(211, 115, 5);
+  --typography-color: rgb(18, 24, 28);
 }
 
 * {
@@ -10,6 +11,7 @@
 
 html {
   font-family: Montserrat, sans-serif;
+  color: var(--typography-color);
 }
 
 body {
@@ -30,6 +32,12 @@ main {
   flex-direction: column;
 }
 
+.header,
+.count-items,
+.item-list {
+  padding: 10px 20px 10px 20px;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -39,6 +47,11 @@ main {
 
 .header_heading-container {
   flex: 1;
+}
+
+.header__heading {
+  font-weight: 500;
+  font-size: 1.7rem;
 }
 
 .nav-bar__menu {
