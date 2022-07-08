@@ -12,6 +12,7 @@
 html {
   font-family: Montserrat, sans-serif;
   color: var(--typography-color);
+  overflow: hidden;
 }
 
 body {
